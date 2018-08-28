@@ -38,6 +38,8 @@ public class GeneratorMain {
         helper.generate("USER_ATTR", "UserAttr", "user");
         helper.generate("USER_PERMISSION", "UserPermission", "user");
         helper.generate("USER_ROLE","UserRole","user");
+        helper.generate("USER_TOKEN","UserToken","user");
+        helper.generate("RESOURCE_RELATION","ResourceRelation","resource");
 
     }
 
